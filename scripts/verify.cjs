@@ -33,9 +33,11 @@ const target = process.env.SHOWCASE_URL || 'https://aegis-finance-showcase.verce
       await page.close();
     }
     const data = await (await fetch(new URL('/data/results.json', target))).text();
-    if (data !== fs.readFileSync(path.join(__dirname, '../public/data/results.json'), 'utf8')) throw new Error('Deployed snapshot differs from reviewed data');
+    const localData = fs.readFileSync(path.join(__dirname, '../public/data/results.json'), 'utf8');
+    // Git normalizes Windows CRLF to LF; preserve all other bytes and values.
+    if (data.replace(/\r\n/g, '\n') !== localData.replace(/\r\n/g, '\n')) throw new Error('Deployed snapshot differs from reviewed data');
     const privateProbe = await fetch(new URL('/brain.json', target));
     if (privateProbe.status !== 404) throw new Error('Unexpected brain export route');
-    console.log(JSON.stringify({snapshot: 'exact byte match', privateExport: privateProbe.status}));
+    console.log(JSON.stringify({snapshot: 'exact text match, Git line endings normalized', privateExport: privateProbe.status}));
   } finally { await browser.close(); }
 })().catch(error => { console.error(error); process.exit(1); });
