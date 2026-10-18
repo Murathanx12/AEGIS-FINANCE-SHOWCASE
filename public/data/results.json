@@ -1,0 +1,132 @@
+{
+  "schema": "aegis-public-snapshot-v1",
+  "collected_on": "2026-10-18",
+  "kind": "forward-paper-observation",
+  "generated_utc": "2026-10-17T23:51:19+00:00",
+  "last_market_mark": "2026-10-16",
+  "is_live_feed": false,
+  "currency": "USD",
+  "scope_note": "Endpoint observations over different own-account windows; not one combined portfolio or a time-series. Paper only. Selected examples after inspecting the cohort. No demonstrated investment skill.",
+  "cohort": {
+    "attempted": 367,
+    "priced": 362,
+    "benchmark_comparable": 307,
+    "ahead_of_spy": 20,
+    "behind_spy": 287,
+    "strategy_excluding_control_twins_ahead": 5,
+    "strategy_excluding_control_twins_behind": 75,
+    "ahead_twins": 15,
+    "ahead_strategy_books": 5,
+    "ahead_strategy_effective_ex_ante_bets": 1.5,
+    "mark_status_counts": {
+      "LIVE": 362,
+      "STALE": 3,
+      "PENDING": 0,
+      "VOID": 1,
+      "BROKER_ERROR": 1
+    }
+  },
+  "selection": "Five illustrative named sleeves, deliberately including losses and previously featured winners. Chosen after the fact, not a pre-registered model portfolio. Cohort:20 ahead/287 behind among307 benchmark-comparable accounts; excluding control twins:5 ahead/75 behind.",
+  "methodology": {
+    "return": "(end_nav/start_nav - 1) * 100, reported receipt rounding to 3 decimals",
+    "benchmark": "SPY compounded over each account own window; benchmark starting convention retained per row",
+    "excess": "return_pct minus benchmark_return_pct, in percentage points",
+    "maximum_drawdown": null,
+    "maximum_drawdown_note": "Not supplied in the endpoint receipt. Cannot infer from endpoints.",
+    "cost_scope": "No independent cost-inclusive audit established here. Paper book marking/account conventions differ; endpoint returns are not evidence of executable investment performance.",
+    "internal_evidence_labels": "Algorithmic project labels, not independent validation. EARLY_EVIDENCE sign-rule has substantial documented null pass rates.",
+    "record_policy": "No investment-skill claim before 24 months of forward record."
+  },
+  "provenance": [
+    {
+      "path": "backend/data/optimus/paper_accounts/roi_2026-10-17T235119Z.json",
+      "sha256": "00cd9c60f0d4622633fcd7820217b586c5f39ee72d823061e716db1634abc551"
+    },
+    {
+      "path": "backend/data/optimus/paper_accounts/book_dna_2026-10-17T235119Z.json",
+      "sha256": "97b5f506f50e0123a1823c484284f59f986a56ae5846f7f4beba490a1ce9e8f7"
+    }
+  ],
+  "rows": [
+    {
+      "account": "conservative-atr",
+      "family": "website_lane",
+      "inception": "2026-06-17",
+      "last_mark": "2026-10-16",
+      "start_nav": 100000.0,
+      "end_nav": 106221.86,
+      "return_pct": 6.222,
+      "benchmark": "SPY",
+      "benchmark_return_pct": 3.53,
+      "excess_pp": 2.692,
+      "benchmark_start_convention": "inception_close",
+      "sessions_graded": 84,
+      "internal_label": "EARLY_EVIDENCE",
+      "maximum_drawdown_pct": null
+    },
+    {
+      "account": "aggressive",
+      "family": "website_lane",
+      "inception": "2026-06-08",
+      "last_mark": "2026-10-16",
+      "start_nav": 100000.0,
+      "end_nav": 104941.38,
+      "return_pct": 4.941,
+      "benchmark": "SPY",
+      "benchmark_return_pct": 3.774,
+      "excess_pp": 1.167,
+      "benchmark_start_convention": "inception_close",
+      "sessions_graded": 91,
+      "internal_label": "OBSERVED(91)",
+      "maximum_drawdown_pct": null
+    },
+    {
+      "account": "revision_flow_v0",
+      "family": "llm_portfolio:personal",
+      "inception": "2026-09-28",
+      "last_mark": "2026-10-16",
+      "start_nav": 1000000.0,
+      "end_nav": 1000078.39,
+      "return_pct": 0.008,
+      "benchmark": "SPY",
+      "benchmark_return_pct": -0.664,
+      "excess_pp": 0.672,
+      "benchmark_start_convention": "grade_entry_open",
+      "sessions_graded": 15,
+      "internal_label": "OBSERVED(15)",
+      "maximum_drawdown_pct": null
+    },
+    {
+      "account": "hack2",
+      "family": "alpaca_fleet",
+      "inception": "2026-08-28",
+      "last_mark": "2026-10-16",
+      "start_nav": 100000.0,
+      "end_nav": 95822.64,
+      "return_pct": -4.177,
+      "benchmark": "SPY",
+      "benchmark_return_pct": -0.772,
+      "excess_pp": -3.405,
+      "benchmark_start_convention": "prior_close",
+      "sessions_graded": 35,
+      "internal_label": "OBSERVED(35)",
+      "maximum_drawdown_pct": null
+    },
+    {
+      "account": "mirror",
+      "family": "website_lane",
+      "inception": "2026-06-16",
+      "last_mark": "2026-10-16",
+      "start_nav": 100000.0,
+      "end_nav": 69208.31,
+      "return_pct": -30.792,
+      "benchmark": "SPY",
+      "benchmark_return_pct": 2.237,
+      "excess_pp": -33.029,
+      "benchmark_start_convention": "inception_close",
+      "sessions_graded": 85,
+      "internal_label": "OBSERVED(85)",
+      "maximum_drawdown_pct": null
+    }
+  ]
+}
