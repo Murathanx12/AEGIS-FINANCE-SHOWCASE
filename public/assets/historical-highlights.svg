@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+<title id="title">Aegis: historical paper highlights, 9 October 2026</title>
+<desc id="desc">Three positive examples chosen retrospectively from307 benchmark-comparable accounts. This is a curated historical showcase, not all accounts, a complete performance history, or current performance.</desc>
+<style>.bg{fill:#000000}.sec{font:700 12px ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;letter-spacing:3px;fill:#fff}.secr{font:400 11px ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;letter-spacing:1.5px;fill:rgba(255,255,255,.45)}.rule{stroke:rgba(255,255,255,.14)}.live{fill:#4a8dff;animation:live 1.8s ease-out infinite}@keyframes live{0%{opacity:1}100%{opacity:.15}}.excess{font:300 34px Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#6fb0ff}.exlab{font:500 10px ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;letter-spacing:1.5px;fill:#4a8dff}.acct{font:600 15px ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;fill:#fff}.meta{font:400 12px Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:rgba(255,255,255,.58)}.badge{font:500 10px ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;letter-spacing:1.5px;fill:rgba(255,255,255,.45)}.track{fill:rgba(255,255,255,.06)}.bar-acct{fill:#4a8dff}.bar-spy{fill:rgba(255,255,255,.55)}.val{font:600 12px ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;fill:#fff}.valspy{font:400 11px ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;fill:rgba(255,255,255,.58)}.grid{stroke:rgba(255,255,255,.08)}.zero{stroke:rgba(255,255,255,.45);stroke-dasharray:2 3}.tick{font:400 10px ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;fill:rgba(255,255,255,.45)}.ln-acct{fill:none;stroke:#4a8dff;stroke-width:2.4;stroke-linejoin:round}.ln-spy{fill:none;stroke:#fff;stroke-width:1.4;stroke-dasharray:5 4}.ln-twin{fill:none;stroke:rgba(255,255,255,.45);stroke-width:1.4}.pt{fill:#000000;stroke:#4a8dff;stroke-width:1.6}.pulse{fill:none;stroke:#6fb0ff;stroke-width:1.5}.pulse-core{fill:#6fb0ff}.lab-acct{font:600 13px ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;fill:#6fb0ff}.lab-spy{font:400 11px ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;fill:#fff}.lab-twin{font:400 11px ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;fill:rgba(255,255,255,.45)}.ctitle{font:600 14px ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;fill:#fff}.fine{font:400 11px Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:rgba(255,255,255,.45)}.result-bar{transform-box:fill-box;transform-origin:left center;animation:result-reveal 1.4s cubic-bezier(.2,.8,.2,1) both}@keyframes result-reveal{from{transform:scaleX(0)}to{transform:scaleX(1)}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}@media(prefers-reduced-motion:reduce){.pulse,.comet,.smil-motion{display:none!important}}</style>
+<defs></defs>
+<rect width="1200" height="470" class="bg"/>
+<text x="40" y="40" class="sec">SELECTED HISTORICAL PAPER HIGHLIGHTS</text>
+<text x="1160" y="40" text-anchor="end" class="secr">MARKS 09 OCT 2026</text>
+<path d="M40 58H1160" class="rule"/>
+<path d="M52 86H40V98m338-12h12v12M40 366v12h12m326 0h12v-12" fill="none" stroke="rgba(255,255,255,.6)"/>
+<text x="60" y="125" class="acct">Revision flow</text>
+<text x="60" y="178" class="excess">+10.599%</text>
+<text x="60" y="201" class="exlab">HISTORICAL SIMULATOR RETURN</text>
+<text x="60" y="235" class="meta">2026-09-28 to 2026-10-09</text>
+<text x="60" y="256" class="badge">OBSERVED(10) · OWN-WINDOW SPY</text>
+<text x="60" y="292" class="meta">Account</text><rect x="125" y="285" width="205" height="7" class="track"/><rect x="125" y="285" width="181.07" height="7" class="bar-acct result-bar"/><text x="339" y="292" class="valspy">+10.599%</text>
+<text x="60" y="320" class="meta">SPY</text><rect x="125" y="313" width="205" height="7" class="track"/><rect x="125" y="313" width="22.72" height="7" class="bar-spy result-bar"/><text x="339" y="320" class="valspy">+1.330%</text>
+<text x="60" y="352" class="meta">+9.269 pp versus SPY</text>
+<path d="M437 86H425V98m338-12h12v12M425 366v12h12m326 0h12v-12" fill="none" stroke="rgba(255,255,255,.6)"/>
+<text x="445" y="125" class="acct">Net raises</text>
+<text x="445" y="178" class="excess">+9.759%</text>
+<text x="445" y="201" class="exlab">HISTORICAL SIMULATOR RETURN</text>
+<text x="445" y="235" class="meta">2026-09-28 to 2026-10-09</text>
+<text x="445" y="256" class="badge">OBSERVED(10) · OWN-WINDOW SPY</text>
+<text x="445" y="292" class="meta">Account</text><rect x="510" y="285" width="205" height="7" class="track"/><rect x="510" y="285" width="166.72" height="7" class="bar-acct result-bar"/><text x="724" y="292" class="valspy">+9.759%</text>
+<text x="445" y="320" class="meta">SPY</text><rect x="510" y="313" width="205" height="7" class="track"/><rect x="510" y="313" width="22.72" height="7" class="bar-spy result-bar"/><text x="724" y="320" class="valspy">+1.330%</text>
+<text x="445" y="352" class="meta">+8.429 pp versus SPY</text>
+<path d="M822 86H810V98m338-12h12v12M810 366v12h12m326 0h12v-12" fill="none" stroke="rgba(255,255,255,.6)"/>
+<text x="830" y="125" class="acct">Hack2</text>
+<text x="830" y="178" class="excess">+5.517%</text>
+<text x="830" y="201" class="exlab">HISTORICAL BROKER PAPER RETURN</text>
+<text x="830" y="235" class="meta">2026-08-28 to 2026-10-09</text>
+<text x="830" y="256" class="badge">OBSERVED(30) · OWN-WINDOW SPY</text>
+<text x="830" y="292" class="meta">Account</text><rect x="895" y="285" width="205" height="7" class="track"/><rect x="895" y="285" width="94.25" height="7" class="bar-acct result-bar"/><text x="1109" y="292" class="valspy">+5.517%</text>
+<text x="830" y="320" class="meta">SPY</text><rect x="895" y="313" width="205" height="7" class="track"/><rect x="895" y="313" width="20.82" height="7" class="bar-spy result-bar"/><text x="1109" y="320" class="valspy">+1.219%</text>
+<text x="830" y="352" class="meta">+4.298 pp versus SPY</text>
+<text x="40" y="416" class="fine">Three positive examples selected after the fact from 307 benchmark-comparable accounts; not the whole record.</text>
+<text x="40" y="438" class="fine">Historical paper only, not current performance. Different windows; simulator and broker evidence are separate.</text>
+<text x="40" y="458" class="fine">Hack2: actual series available for 10/30 sessions. Source: roi_2026-10-10T235231Z. Read the methodology.</text>
+</svg>
